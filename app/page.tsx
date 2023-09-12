@@ -76,6 +76,7 @@ export default function Home() {
                 type="checkbox"
                 className="transform scale-[1.5]"
                 onChange={() => handleCheckControl(item.id)}
+                checked={item.isChecked ? true : false}
               />
               <h3
                 style={{
